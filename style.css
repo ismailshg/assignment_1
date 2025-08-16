@@ -1,0 +1,559 @@
+/* Poppins - Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.second, .third, .fourth, .fifth, .sixth, .seventh{
+    margin: 80px 0;
+}
+
+section {
+    scroll-margin-top: 60px; /* fixed navbar height */
+}
+
+.first nav {
+    width: 100%;
+    height: 60px;
+    background-color: #056277b1;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.137);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.first nav .logo {
+    margin: 7px 30px;
+
+}
+
+.first nav .logo a {
+    width: 88px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 24px;
+    font-size: bold;
+    text-decoration: none;
+    color: #44c408;
+
+}
+
+.first nav ul {
+    display: flex;
+    /* gap: 17px; */
+    list-style: none;
+    margin-left: 92px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 10px;
+    padding: 2px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    border-bottom: 2px solid #44c408;
+    transition: all 0.3s ease;
+    /* border-radius: 5px; */
+    color: #44c408;
+}
+
+nav .btn1 a {
+    text-decoration: none;
+    color: #44c408;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 7px 10px;
+    margin-right: 30px;
+
+    border: 1px solid #44c408;
+    border-radius: 5px;
+}
+
+nav .btn a:hover {
+    color: #000;
+    background-color: #44c408;
+}
+
+
+
+
+
+
+/* Section2=> Banner  */
+
+.second {
+    padding: 20px 50px;
+    margin-top: 85px;
+}
+
+img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 5px;
+
+    /* box-shadow: -5px 5px 20px 0px #44c408; */
+}
+
+.second .content {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+}
+
+.content .subContent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .subContent h1 {
+    /* font-weight: 1000; */
+    font-size: 30px;
+}
+
+.content .subContent p {
+    font-size: 14px;
+}
+
+.content .subContent .btn2 a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 3px;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.content .subContent .btn2 a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.content .subContent .btn2 {
+    margin-right: 298px;
+}
+
+
+
+
+/* Section3=> Our Clients  */
+
+.third {
+    padding: 20px 50px;
+
+}
+
+.third .thirdContent {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    line-height: 27px;
+}
+
+.third .thirdContent h3 {
+    font-size: 23px;
+}
+
+.third .thirdContent .companies img {
+    width: 100%;
+    max-width: 50px;
+    margin: 5px 30px;
+}
+
+
+/* Section4=> Explore the Power of Blockchain in Key Sectors  */
+
+.fourth {
+    padding: 20px 50px;
+
+}
+
+.fourth .fourthContent {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fourth .fourthContent p {
+    text-align: center;
+    font-size: small;
+    font-weight: 250;
+}
+
+.fourth .fourthContent h3 {
+    font-size: 22px;
+}
+
+.fourth .fourthContent .boxes .box i {
+    color: #fff;
+    font-size: 23px;
+    padding: 15px;
+    margin-right: 25px;
+}
+
+.fourth .fourthContent .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0px 20px;
+    margin: 0px 50px;
+    gap: 20px;
+}
+
+.fourth .fourthContent .boxes .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth .fourthContent .boxes .box p {
+    text-align: center;
+    font-size: small;
+    font-weight: 250;
+}
+
+.fourth .fourthContent .boxes .box h4 {
+    font-size: 18px;
+
+}
+
+
+/* Section5=>Helping Blockchain   */
+
+.fifth .fifthContent {
+    color: #fff;
+    display: flex;
+
+}
+
+.fifth {
+    padding: 20px 50px;
+
+}
+
+.fifth .fifthContent .fifth-subContent {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fifth .fifthContent .fifth-subContent h2 {
+    font-size: 25px;
+
+}
+
+.fifth .fifthContent .fifth-subContent p {
+    text-align: left;
+    font-size: small;
+    font-weight: 250;
+}
+
+.fifth .fifthContent .containers {
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+
+.fifth .fifthContent .containers .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+}
+
+.fifth .fifthContent .containers .cont i {
+    padding: 10px;
+    margin-right: 30px;
+}
+
+
+
+/* Section6=>The foundation of the future  */
+
+.sixth {
+    padding: 20px 50px;
+
+}
+
+.sixth .sixthContent {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sixth .sixthContent .sixth-subContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sixth .sixthContent .sixth-subContent p {
+    font-size: small;
+    font-weight: 250;
+}
+
+
+.sixth .sixthContent .sixth-subContent h3 {
+    font-size: 25px;
+
+}
+
+
+
+
+.sixth .sixthContent .objects {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 70px;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.sixth .sixthContent .objects .packge {
+    position: relative;
+}
+
+
+.sixth .sixthContent .objects .obj {
+    position: absolute;
+    height: 113px;
+    width: 192px;
+    background-color: #08a2c46e;
+    /* gap: 20px; */
+    top: 83px;
+    left: 33px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+
+.sixth .sixthContent .objects .obj :first-child {
+    font-size: 13px;
+    color: #fff;
+  
+}
+
+
+.sixth .sixthContent .objects .obj :last-child {
+    font-size: 15px;
+    padding: 5px;
+    color: #49be13;
+    cursor: pointer;
+}
+
+.sixth .sixthContent .objects .obj:hover {
+    background-color: #056277b1;
+    top: 80px;
+}
+
+
+
+
+/* Section7=>contact form  */
+
+
+.seventh {
+    color: #fff;
+    padding: 20px 50px;
+    margin-top: 20px;
+}
+
+
+.seventh .contactBox .mail-image img {
+    width: 100%;
+    max-width: 500px;
+
+}
+
+
+.seventh .contactBox .contact-form h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #6abc45;
+}
+
+.seventh .contactBox {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+
+
+    justify-content: center;
+}
+
+.seventh .contactBox .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seventh .contactBox .contact-form {
+    width: 40%;
+    height: 50px;
+    margin: 16px 0;
+    position: relative;
+}
+
+.seventh .contactBox .contact-form input {
+    outline: none;
+    outline: none;
+    padding: 8px 5px;
+    border: 2px sorgba(67, 156, 26, 0.355)be13;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    transition: all 0.1s ease;
+}
+
+.seventh .contactBox .contact-form textarea {
+    outline: none;
+    resize: none;
+    padding: 8px 5px;
+    border: 2px sorgba(67, 156, 26, 0.355)be13;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    transition: all 0.1s ease;
+}
+
+.seventh .contactBox .contact-form button {
+    padding: 5px;
+    color: #000000;
+    background-color: #499b23;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 450;
+    transition: all 0.1s ease;
+}
+
+.seventh .contactBox .contact-form input:hover {
+    border: 2px solid #49be13;
+    caret-color: #49be13;
+
+}
+
+.seventh .contactBox .contact-form textarea:hover {
+    border: 2px solid #49be13;
+    caret-color: #49be13;
+}
+
+.seventh .contactBox .contact-form button:hover {
+    background-color: #359608;
+}
+
+
+
+
+/* footer  */
+
+footer {
+    background-color: #056277b1;
+    color: #000000;
+    padding: 20px 50px;
+    margin-top: 20px;
+    height: 300px;
+}
+
+footer .footer-content {
+    display: flex;
+    gap: 80px;
+    width: 100%;
+    height: auto;
+    /* align-items: center;  */
+    justify-content: center;
+    margin-top: 25px;
+}
+
+footer .footer-content .logo-icon {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+footer .footer-content .logo-icon i {
+    color: #000000c8;
+    transition: all 0.3s ease;
+}
+
+footer .footer-content .logo-icon i:hover {
+    color: #000000;
+}
+
+footer .footer-content .topic {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 2px;
+}
+
+footer .footer-content p {
+    font-size: 11px;
+    margin: 5px 2px;
+}
+
+footer .footer-content ul li {
+    list-style: none;
+    font-size: 11px;
+    padding: 5px 2px;
+}
+
+footer .footer-content .mail-input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    background-color: #ffffff56;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #000;
+}
+
+footer .footer-content .mail-input input::placeholder {
+    color: #000;
+}
+
+
+
