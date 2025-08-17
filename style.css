@@ -597,6 +597,8 @@ footer .footer-content .mail-input input::placeholder {
 /* mobile responsive  */
 
 @media (max-width: 570px) {
+
+
     .second {
         padding: 20px 30px;
         margin-top: 90px;
@@ -652,7 +654,7 @@ footer .footer-content .mail-input input::placeholder {
     }
 
     .third .thirdContent p {
-        font-size: 2vw;
+        font-size: 3vw;
         text-align: center;
         align-items: center;
     }
@@ -662,13 +664,14 @@ footer .footer-content .mail-input input::placeholder {
         grid-template-columns: 20px 20px;
         gap: 20px;
 
+
     }
 
     .third .thirdContent .companies img {
         margin-left: 55px;
         height: 20px;
         width: 20px;
-        margin-left: 20px;
+        margin-left: 8px;
     }
 
     /* section4  */
@@ -678,7 +681,7 @@ footer .footer-content .mail-input input::placeholder {
     }
 
     .fourth .fourthContent h3 {
-        font-size: 4.5vw;
+        font-size: 4vw;
         text-align: center;
     }
 
@@ -688,22 +691,26 @@ footer .footer-content .mail-input input::placeholder {
 
     }
 
+    .fourth .fourthContent p{
+        font-size: 3vw;
+    }
+
     .fourth .fourthContent .boxes {
         flex-direction: column;
 
     }
 
-    .fourth .fourthContent .boxes h4 {
-        font-size: 500px;
+    .fourth .fourthContent .boxes .box h4 {
+        font-size: 3vw;
     }
 
-    .fourth .fourthContent .boxes p {
-        font-size: 200px;
+    .fourth .fourthContent .boxes .box p {
+        font-size: 3vw;
     }
 
     /* section 5  */
     .fifth {
-        padding: 200px 30px;
+        padding: 20px 30px;
 
     }
 
@@ -721,12 +728,18 @@ footer .footer-content .mail-input input::placeholder {
     }
 
     .fifth .fifthContent .fifth-subContent p {
-        font-size: 2vw;
+        font-size: 3vw;
         text-align: center;
     }
 
     .fifth .fifthContent .fifth-subContent h2 {
-        font-size: 3vw;
+        font-size: 4vw;
+    }
+
+    .fifth .fifthContent .cont{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     /* section 6  */
@@ -779,6 +792,7 @@ footer .footer-content .mail-input input::placeholder {
         height: auto;
         padding: 20px;
         text-align: center;
+        margin-top: 280px;
     }
 
     footer .footer-content {
@@ -805,10 +819,15 @@ footer .footer-content .mail-input input::placeholder {
         font-size: 12px;
     }
 
-    footer .footer-content .mail-input input {
+    footer .footer-content .mail-input .mail input {
         width: 90%;
         font-size: 12px;
         padding: 8px;
+    }
+
+    footer .footer-content .mail-input .mail button{
+        right: 10px;
+        top: 8px;
     }
 
 }
